@@ -37,7 +37,6 @@ public class AverageCalculator {
         return sum / counter;
     }
 
-
     public static double calcItFour(int[] nums, int min, int max) {
         double sum = 0;
         int counter = 0;
@@ -46,6 +45,7 @@ public class AverageCalculator {
                 sum = sum + val;
                 counter++;
             }
+           
         }
         double average = sum / counter;
         return average;
